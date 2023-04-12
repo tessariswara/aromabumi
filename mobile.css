@@ -230,11 +230,12 @@
     .btn {
         color: white;
         opacity: 1;
-        width: 335px;
-        height: 70px;
+        width: calc(40vw);
+        height: calc(10vw);
         border-radius: 55px;
-        font-size: 24px;
-        margin-top: 45px;
+        font-size: calc(3vw);
+        font-weight: 800;
+        margin-top: calc(5vw);
         cursor: pointer;
         border: 0;
     }
@@ -274,7 +275,7 @@
     .section4img img {
         width: calc(20vw);
         height: calc(20vw);
-        border-radius: 20px;
+        border-radius: 15px;
         color: #EC9A29;
     }
 
@@ -309,11 +310,11 @@
     }
 
     .section5txt p {
-        padding-top: 20px;
         font-size: calc(3.6vw);
         color: #143642;
         line-height: calc(5vw);
         font-weight: 400;
+        padding-bottom: calc(3vh);
     }
 
     .footer {
