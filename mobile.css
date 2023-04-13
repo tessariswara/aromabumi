@@ -21,6 +21,7 @@
     nav {
         margin: 0;
         padding: 0;
+        border-radius: 35px;
     }
 
     .navbar {
@@ -29,7 +30,6 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-color: #0F8B8D;
     }
 
     .navlogo {
@@ -46,6 +46,7 @@
         width: calc(40vw);
         height: auto;
     }
+
     .navitem {
         margin: 0 auto;
         padding: 0;
@@ -119,7 +120,7 @@
     }
 
     .section1 {
-        margin: 0;
+        margin-top: calc(8vh);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -334,13 +335,15 @@
     }
 
     .footlogo {
-        align-items: first baseline;
-        padding: calc(2vw) calc(10vw);
+        margin: 0;
+        align-items: flex-end;
+        padding: calc(4vw) calc(10vw);
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .footlogo img {
+        padding: 0;
         display: flex;
         flex-direction: row;
         width: calc(45vw);
@@ -348,28 +351,39 @@
     }
 
     .footitem {
-        margin-top: calc(2vw);
         flex-direction: column;
+        margin: 0;
         padding: 0 calc(10vw);
     }
 
     .footitem li {
         font-size: calc(3.5vw);
         font-weight: 400;
+        color: #EC9A29;
     }
 
-    .footitem span {
-        color: #EC9A29;
+    .footitem li span {
+        padding: 0 calc(7vw);
+        color: white;
     }
 
     .footlogosvg {
         flex-direction: row;
+        column-gap: calc(3vw);
     }
 
     .footlogosvg img {
-        width: calc(2rem);
-        height: calc(2rem);
+        margin : 0;
+        width: calc(2.4rem);
+        height: calc(2.4rem);
         filter: invert();
+    }
+
+    .footmark {
+        margin: 0;
+        font-weight: 400;
+        padding: calc(10vw) 0;
+        text-align: center;   
     }
 
     .navbarmenu {
@@ -395,6 +409,7 @@
         width: calc(40vw);
         height: auto;
     }
+
     .navmenuitem {
         margin: 0 auto;
         padding: 0;
@@ -465,7 +480,7 @@
     }
 
     .arenlate p {
-        margin-top: calc(0.5vw); 
+        margin-top: calc(0.5vw);
         font-size: calc(2.5vw)
     }
 
@@ -491,7 +506,7 @@
     }
 
     .cafelate p {
-        margin-top: calc(0.5vw); 
+        margin-top: calc(0.5vw);
         font-size: calc(2.5vw)
     }
 
@@ -517,7 +532,7 @@
     }
 
     .caramellate p {
-        margin-top: calc(0.5vw); 
+        margin-top: calc(0.5vw);
         font-size: calc(2.5vw)
     }
 
@@ -543,7 +558,7 @@
     }
 
     .americano p {
-        margin-top: calc(0.5vw); 
+        margin-top: calc(0.5vw);
         font-size: calc(2.5vw)
     }
 
@@ -569,7 +584,7 @@
     }
 
     .cappucino p {
-        margin-top: calc(0.5vw); 
+        margin-top: calc(0.5vw);
         font-size: calc(2.5vw)
     }
 
@@ -595,56 +610,69 @@
     }
 
     .butterscotch p {
-        margin-top: calc(0.5vw); 
+        margin-top: calc(0.5vw);
         font-size: calc(2.5vw)
     }
-    
+
+    .section {
+        margin: 0;
+        padding: calc(0vw) calc(10vw) calc(10vw) calc(10vw);
+    }
+
     .section1detail {
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
+        justify-content: flex-start;
     }
 
     .section1detailimg {
+        margin: 0 auto;
+        padding: 0;
         overflow: hidden;
-        position: relative;
     }
 
     .section1detailimg img {
-        position: absolute;
-        left: -1000%;
-        right: -1000%;
-        top: -1000%;
-        bottom: -1000%;
         margin: auto;
-        min-height: 100%;
-        min-width: 100%;
-        width: auto;
+        width: calc(80vw);
+        object-fit: contain;
+    }
+
+    .section1detailjudul {
+        margin: 0;
+        padding: 0;
     }
 
     .section1detailjudul h2 {
-        font-size: 48px;
+        margin: 0;
+        padding: 0;
+        font-size: calc(6vw);
         color: #0F8B8D;
-        margin-bottom: 30px;
         font-weight: 800;
     }
 
     .section1detailjudul h3 {
-        font-size: 24px;
+        margin-top: calc(3vw);
+        font-size: calc(3vw);
         color: #143642;
         font-weight: 500;
     }
 
     .section1detailjudul p {
-        margin-top: 60px;
-        font-size: 60px;
+        margin-top: calc(3vw);
+        padding: 0;
+        font-size: calc(7vw);
+        font-weight: 800;
         color: #0F8B8D;
         font-weight: 800;
+
     }
 
     .section2detail {
-        margin: 43.65px 280px 0 280px;
+        margin-top: calc(10vw);
+        padding: 0;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -652,17 +680,16 @@
     }
 
     .section2detailcontent h3 {
-        font-size: 48px;
+        margin: 0;
+        padding: 0 0 calc(3vw) 0;
+        font-size: calc(6vw);
         color: #0F8B8D;
-        border-bottom: 5px solid #EC9A29;
-        margin-right: 640px;
-        padding-bottom: 20px;
+        border-bottom: 3px solid #EC9A29;
         font-weight: 500;
     }
 
     .section2detailcontent p {
-        margin-top: 20px;
-        font-size: 26px;
+        font-size: calc(3vw);
         color: #143642;
         font-weight: 400;
         line-height: 35px;
@@ -674,13 +701,15 @@
     }
 
     .btndetail {
+        padding: 0 calc(5vw);
         color: white;
         opacity: 1;
-        width: 360px;
-        height: 70px;
+        width: fit-content;
+        height: calc(10vw);
         border-radius: 55px;
-        font-size: 24px;
-        margin-top: 45px;
+        font-size: calc(3vw);
+        font-weight: 800;
+        margin-top: calc(5vw);
         cursor: pointer;
         border: 0;
     }
@@ -692,71 +721,65 @@
     .detailcontainer {
         display: flex;
         flex-direction: row;
-        justify-content: left;
-        text-align: center;
-        align-items: center;
-        height: 20px;
     }
 
     .detailcta1logo img {
-        padding: 0;
+        margin: 0 auto;
         filter: invert();
         transform: rotate(180deg);
-        margin-left: 20px;
         margin-bottom: 0;
-        margin-top: 5px;
+        margin-top: calc(0.5vw);
     }
 
     .detailcta1text p {
         color: white;
-        margin-top: 0;
-        margin-left: 10px;
+        margin-left: calc(1vw);
+        margin-right: calc(2.5vw);
     }
 
     .section1find {
-        margin: 100px 160px 0 160px;
+        margin: 0;
+        padding: 0;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column-reverse;
         align-items: center;
-        column-gap: 112.2px;
+        border: 5px solid yellow;
+    }
+
+    .section1findisi {
+        border: 5px solid navy;
     }
 
     .section1findjudul {
-        display: flex;
-        flex-direction: column;
+        border: 5px solid red;
     }
 
     .section1findjudul h2 {
-        font-size: 48px;
+        font-size: calc(7vw);
         font-weight: 800;
         color: #0F8B8D;
     }
 
     .section1findjudul p {
-        margin-top: 20px;
-        font-size: 24px;
+        font-size: calc(3.5vw);
         font-weight: 400;
-        line-height: 29px;
         letter-spacing: 0em;
         text-align: left;
         color: #143642;
     }
 
     .section1findbox {
-        margin-top: 20px;
-        display: flex;
         flex-direction: column;
-        row-gap: 20px;
+        border: 5px solid green;
     }
 
     .box1 {
+        margin: 0;
+        padding: 0;
         border: 1px solid #D2D2D2;
         border-radius: 20px;
-        padding: 20px 45px 0px 45px;
-        width: 474px;
-        height: 196px;
-        row-gap: 20px;
+        box-sizing: calc(1vw);
+        row-gap: calc(20vw);
     }
 
     .box1:hover {
@@ -764,12 +787,12 @@
     }
 
     .box1 h3 {
-        font-size: 30px;
+        font-size: calc(5vw);
         color: #143642;
     }
 
     .box1 p {
-        margin-top: 20px;
+        margin-top: calc(3vw);
         font-size: 20px;
         color: #143642;
         line-height: 24px;
@@ -778,9 +801,6 @@
     .box2 {
         border: 1px solid #D2D2D2;
         border-radius: 20px;
-        padding: 20px 45px 0px 45px;
-        width: 474px;
-        height: 196px;
     }
 
     .box2:hover {
@@ -802,7 +822,6 @@
     .box3 {
         border: 1px solid #D2D2D2;
         border-radius: 20px;
-        padding: 20px 45px 0px 45px;
         width: 474px;
         height: 196px;
     }
@@ -824,18 +843,13 @@
     }
 
     .section1findmap {
-        width: 580px;
-        height: 580px;
-    }
-
-    .section1findmap iframe {
-        width: 580px;
-        height: 580px;
-        border-radius: 20px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        border: 5px solid saddlebrown;
     }
 
     .section1help {
-        margin: 100px 257px 0 257px;
         display: flex;
         flex-direction: column;
     }
