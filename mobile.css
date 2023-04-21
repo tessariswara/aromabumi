@@ -637,7 +637,7 @@
     .section1detailimg img {
         margin: auto;
         width: calc(100vw);
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .section1detailjudul {
