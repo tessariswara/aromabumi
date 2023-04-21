@@ -741,49 +741,53 @@
         margin-right: calc(2.5vw);
     }
 
-    .section1find {
-        margin: 0;
+    .section1fnd {
+        margin: calc(10vw);
         padding: 0;
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
-        border: 5px solid yellow;
     }
 
     .section1findisi {
-        border: 5px solid navy;
+        margin: 0;
     }
 
-    .section1findjudul {
-        border: 5px solid red;
-    }
 
     .section1findjudul h2 {
-        font-size: calc(7vw);
-        font-weight: 800;
-        color: #0F8B8D;
+        margin-top: calc(10vw);
+        font-size: calc(6vw);
     }
 
     .section1findjudul p {
         font-size: calc(3.5vw);
-        font-weight: 400;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #143642;
     }
 
     .section1findbox {
+        margin: 0;
+        padding: 0;
+    }
+
+    .section1findcontent {
+        margin-top: calc(5vw);
+        display: flex;
         flex-direction: column;
-        border: 5px solid green;
+        row-gap: calc(5vw);
+    }
+
+    .section1find {
+        margin: 0;
+        padding: 0;
     }
 
     .box1 {
         margin: 0;
-        padding: 0;
+        padding: calc(5vw);
         border: 1px solid #D2D2D2;
-        border-radius: 20px;
-        box-sizing: calc(1vw);
+        border-radius: calc(2vw);
+        box-sizing: calc(5vw);
         row-gap: calc(20vw);
+        width: inherit;
+        height: fit-content;
     }
 
     .box1:hover {
@@ -791,20 +795,27 @@
     }
 
     .box1 h3 {
-        font-size: calc(5vw);
+        font-size: calc(4.5vw);
         color: #143642;
     }
 
     .box1 p {
         margin-top: calc(3vw);
-        font-size: 20px;
+        font-size: calc(3.5vw);
+        margin-bottom: calc(4vw);
         color: #143642;
         line-height: 24px;
     }
 
     .box2 {
+        margin: 0;
+        padding: calc(5vw);
         border: 1px solid #D2D2D2;
-        border-radius: 20px;
+        border-radius: calc(2vw);
+        box-sizing: calc(5vw);
+        row-gap: calc(20vw);
+        width: inherit;
+        height: fit-content;
     }
 
     .box2:hover {
@@ -812,22 +823,27 @@
     }
 
     .box2 h3 {
-        font-size: 30px;
+        font-size: calc(4.5vw);
         color: #143642;
     }
 
     .box2 p {
-        margin-top: 20px;
-        font-size: 20px;
+        margin-top: calc(3vw);
+        font-size: calc(3.5vw);
+        margin-bottom: calc(4vw);
         color: #143642;
         line-height: 24px;
     }
 
     .box3 {
+        margin: 0;
+        padding: calc(5vw);
         border: 1px solid #D2D2D2;
-        border-radius: 20px;
-        width: 474px;
-        height: 196px;
+        border-radius: calc(2vw);
+        box-sizing: calc(5vw);
+        row-gap: calc(20vw);
+        width: inherit;
+        height: fit-content;
     }
 
     .box3:hover {
@@ -835,13 +851,14 @@
     }
 
     .box3 h3 {
-        font-size: 30px;
+        font-size: calc(4.5vw);
         color: #143642;
     }
 
     .box3 p {
-        margin-top: 20px;
-        font-size: 20px;
+        margin-top: calc(3vw);
+        font-size: calc(3.5vw);
+        margin-bottom: calc(4vw);
         color: #143642;
         line-height: 24px;
     }
@@ -850,7 +867,7 @@
         display: flex;
         margin: 0;
         padding: 0;
-        border: 5px solid saddlebrown;
+        width: inherit;
     }
 
     .section1help {
