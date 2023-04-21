@@ -631,12 +631,15 @@
     .section1detailimg {
         margin: 0 auto;
         padding: 0;
+        width: calc(100vw);
+        height: calc(100vw);
         overflow: hidden;
     }
 
     .section1detailimg img {
         margin: auto;
         width: calc(100vw);
+        height: calc(10vw);
         object-fit: cover;
     }
 
