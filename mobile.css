@@ -636,7 +636,7 @@
 
     .section1detailimg img {
         margin: auto;
-        width: calc(80vw);
+        width: calc(100vw);
         object-fit: contain;
     }
 
