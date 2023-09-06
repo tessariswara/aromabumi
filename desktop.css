@@ -3,8 +3,6 @@
     padding: 0;
     font-family: Lato, Helvetica, sans-serif;
 }
-
-@media (max-width:1000px) {
     a {
         color: white;
         text-decoration: none;
@@ -837,4 +835,3 @@
     .helpsubmit {
         background-color: #A8201A;
     }
-}
